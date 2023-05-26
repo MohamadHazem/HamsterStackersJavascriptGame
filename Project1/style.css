@@ -1,0 +1,88 @@
+body{
+    background-image: url("./img/tree.jpg");
+    background-size: cover;
+}
+
+div {
+    display:grid;
+   /* Use OOP in JS e.g class to generate objects instead of html. */
+    /* Set div height and width e.g. 500px to contain game within 500px square and set losing condition if reach 0px. */
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    position:absolute;
+    top: 1px;
+    left: 500px;
+    font-family:cursive;
+}
+
+p {
+    text-align: center;
+    background-color: rgb(139, 214, 139);
+    width: 270px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+img {
+    height: 15vh;
+    width: 10vw;
+}
+
+#hamsterOne {
+    height: 100px;
+    width: 120px;
+    position: absolute;
+    top: 180px;
+    left: 500px;
+    opacity: 0;
+}
+
+#hamsterTwo {
+    height: 100px;
+    width: 120px;
+    position: absolute;
+    top: 260px;
+    left: 500px;
+    opacity: 0;
+}
+
+#hamsterThree {
+    height: 100px;
+    width: 120px;
+    position: absolute;
+    top: 340px;
+    left: 500px;
+    opacity: 0;
+}
+
+#hamsterFour {
+    height: 100px;
+    width: 120px;
+    position: absolute;
+    top: 420px;
+    left: 500px;
+    opacity: 0;
+}
+
+#hamsterFive {
+    height: 100px;
+    width: 120px;
+    position: absolute;
+    top: 500px;
+    left: 500px;
+}
+
+#hamsterSix {
+    height: 100px;
+    width: 120px;
+    position: absolute;
+    top: 5px;
+    left: 500px;
+    opacity:0;
+}
